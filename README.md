@@ -1,6 +1,6 @@
 # USB Host Controller Driver (XHCI) Extension for Core-Kernel:
 
-This document is all about the USB Host Controller Driver (XHCI) Extension. It's a needed addition to Core-Kernel.
+This document is all about the USB Host Controller Driver (XHCI) Extension. It's a needed addition to Core-Kernel for running bare metal.
 Getting Started (Overview)
 
 So, the Universal Serial Bus (USB) Host Controller Interface (XHCI) is like the modern way to handle all your USB stuff. These XHCI controllers, which are pretty common in today's computers, help us talk super fast to all sorts of USB things – like your keyboard, mouse, storage devices, and other special gadgets. Adding this driver really makes the kernel much better at working with hardware!
@@ -26,7 +26,7 @@ What It Does (Functionality)
 
     Manage Memory Fully: It doesn't have a fancy way to handle all the complex memory structures the XHCI controller uses internally.
 
-So, this driver is really just a first step to show you how Core-Kernel can talk directly to an XHCI controller. We'll need a lot more work to get a full USB system going!
+So, this driver is really just a first step to show you how Core-Kernel can talk directly to an XHCI controller. Ill need a lot more work to get a full USB system going!
 Commands You Can Use
 
 ## This extension adds a couple of handy commands for you to use in the kernel's command line:
